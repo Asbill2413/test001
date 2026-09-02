@@ -1,0 +1,20 @@
+# ===== Python 缓存/字节码（运行自动生成，可再生成）=====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== 打包/构建产物（源码已入库，产物可用 PyInstaller 重新生成）=====
+dist/
+build/
+
+# ===== Claude Code 本地配置（含本机绝对路径，仅本机有效，不应入库）=====
+**/.claude/settings.local.json
+
+# ===== 操作系统 / Office 临时文件 =====
+~$*
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 第三方安装包（非本实习成果，保留本地但不入库）=====
+/0825项目管理/Winhance.Installer.exe
